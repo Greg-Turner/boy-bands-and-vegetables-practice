@@ -7,6 +7,7 @@ const bandElement = document.getElementById("boy-bands");
 // Get a reference to the appropriate DOM element for vegetables
 const veggieElement = document.getElementById("vegetables");
 console.log(bands.length,vegetables.length);
+
 // Execute a for loop that will iterate over the arrays
 let maxNum=0;
 if (bands.length > vegetables.length) {
@@ -14,7 +15,6 @@ if (bands.length > vegetables.length) {
 } else {
     maxNum = vegetables.length;
 }
-console.log(maxNum);
 
 for (let loopTracker = 0; loopTracker < maxNum; loopTracker += 1) {
 
